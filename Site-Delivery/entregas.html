@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Controle de Entregas</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>EATNOW</h1>
+
+    <nav>
+        <a href="empresa.html">Empresa</a>
+        <a href="index.html">Início</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2 class="titulo">Controle de Entregas</h2>
+
+    <!-- FILTRO -->
+    <div class="filtro">
+        <input type="text" placeholder="Buscar cliente...">
+        <select>
+            <option>Status</option>
+            <option>Em preparo</option>
+            <option>Saiu para entrega</option>
+            <option>Entregue</option>
+        </select>
+        <button class="btn">Filtrar</button>
+    </div>
+
+    <!-- TABELA -->
+    <div class="tabela-container">
+
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>ID Pedido</th>
+                    <th>Cliente</th>
+                    <th>Endereço</th>
+                    <th>Entregador</th>
+                    <th>Status</th>
+                    <th>Tempo Estimado</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>001</td>
+                    <td>João Silva</td>
+                    <td>Rua A, 123</td>
+                    <td>Lucas (Moto)</td>
+                    <td class="alerta">Em preparo</td>
+                    <td>30 min</td>
+                </tr>
+
+                <tr>
+                    <td>002</td>
+                    <td>Maria Souza</td>
+                    <td>Av. Central, 45</td>
+                    <td>Pedro (Bike)</td>
+                    <td class="andamento">Saiu para entrega</td>
+                    <td>15 min</td>
+                </tr>
+
+                <tr>
+                    <td>003</td>
+                    <td>Carlos Lima</td>
+                    <td>Rua B, 89</td>
+                    <td>Rafael (Carro)</td>
+                    <td class="ok">Entregue</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>004</td>
+                    <td>Ana Costa</td>
+                    <td>Rua das Flores, 200</td>
+                    <td>Lucas (Moto)</td>
+                    <td class="andamento">Saiu para entrega</td>
+                    <td>10 min</td>
+                </tr>
+
+                <tr>
+                    <td>005</td>
+                    <td>Pedro Alves</td>
+                    <td>Rua Verde, 77</td>
+                    <td>João (Moto)</td>
+                    <td class="alerta">Em preparo</td>
+                    <td>25 min</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>Sobre</h3>
+            <p>Sistema de delivery fictício para estudo.</p>
+        </div>
+
+        <div>
+            <h3>Links</h3>
+            <p><a href="index.html">Início</a></p>
+        </div>
+
+        <div>
+            <h3>Contato</h3>
+            <p>Email: contato@delivery.com</p>
+        </div>
+    </div>
+
+    <p class="copy">© 2026 Sistema Delivery</p>
+</footer>
+
+</body>
+</html>
