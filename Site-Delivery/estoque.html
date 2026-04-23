@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Estoque</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>EATNOW</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Cempresa.html">Empresa</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2 class="titulo">Controle de Estoque</h2>
+
+    <!-- FILTRO -->
+    <div class="filtro">
+        <input type="text" placeholder="Buscar produto...">
+        <select>
+            <option>Categoria</option>
+            <option>Lanches</option>
+            <option>Bebidas</option>
+        </select>
+        <button class="btn">Buscar</button>
+    </div>
+
+    <!-- TABELA -->
+    <div class="tabela-container">
+
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Estoque</th>
+                    <th>Preço</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Hambúrguer</td>
+                    <td>Lanches</td>
+                    <td>25</td>
+                    <td>R$ 25,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+
+                <tr>
+                    <td>002</td>
+                    <td>Pizza</td>
+                    <td>Lanches</td>
+                    <td>10</td>
+                    <td>R$ 40,00</td>
+                    <td class="alerta">Baixo</td>
+                </tr>
+            
+                <tr>
+                    <td>003</td>
+                    <td>Sushi</td>
+                    <td>Pratos</td>
+                    <td>8</td>
+                    <td>R$ 50,00</td>
+                    <td class="alerta">Baixo</td>
+                </tr>
+
+                <tr>
+                    <td>004</td>
+                    <td>Açaí</td>
+                    <td>Sobremesas</td>
+                    <td>15</td>
+                    <td>R$ 15,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+
+                <tr>
+                    <td>005</td>
+                    <td>Batata Frita</td>
+                    <td>Lanches</td>
+                    <td>20</td>
+                    <td>R$ 18,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+
+                <tr>
+                    <td>006</td>
+                    <td>Refrigerante</td>
+                    <td>Bebidas</td>
+                    <td>0</td>
+                    <td>R$ 8,00</td>
+                    <td class="erro">Esgotado</td>
+                </tr>
+
+                <tr>
+                    <td>007</td>
+                    <td>Hot Dog</td>
+                    <td>Lanches</td>
+                    <td>12</td>
+                    <td>R$ 20,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+
+                <tr>
+                    <td>008</td>
+                    <td>Lasanha</td>
+                    <td>Pratos</td>
+                    <td>6</td>
+                    <td>R$ 35,00</td>
+                    <td class="alerta">Baixo</td>
+                </tr>
+
+                <tr>
+                    <td>009</td>
+                    <td>Salada</td>
+                    <td>Pratos</td>
+                    <td>9</td>
+                    <td>R$ 22,00</td>
+                    <td class="alerta">Baixo</td>
+                </tr>
+
+                <tr>
+                    <td>010</td>
+                    <td>Frango</td>
+                    <td>Pratos</td>
+                    <td>18</td>
+                    <td>R$ 28,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+
+                <tr>
+                    <td>011</td>
+                    <td>Churrasco</td>
+                    <td>Pratos</td>
+                    <td>5</td>
+                    <td>R$ 60,00</td>
+                    <td class="alerta">Baixo</td>
+                </tr>
+
+                <tr>
+                    <td>012</td>
+                    <td>Sorvete</td>
+                    <td>Sobremesas</td>
+                    <td>14</td>
+                    <td>R$ 12,00</td>
+                    <td class="ok">Disponível</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>Sobre</h3>
+            <p>Sistema de delivery fictício para estudo.</p>
+        </div>
+
+        <div>
+            <h3>Links</h3>
+            <p><a href="index.html">Início</a></p>
+        </div>
+
+        <div>
+            <h3>Contato</h3>
+            <p>Email: contato@delivery.com</p>
+        </div>
+    </div>
+
+    <p class="copy">© 2026 Sistema Delivery</p>
+</footer>
+
+</body>
+</html>

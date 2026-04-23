@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro Produto</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>EATNOW</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="empresa.html">Empresa</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2 class="titulo">Cadastro de Produto</h2>
+
+    <div class="form-container">
+
+        <!-- IDENTIFICAÇÃO -->
+        <div class="form-group">
+            <label>ID do Produto</label>
+            <input type="text" placeholder="Ex: 001">
+        </div>
+
+        <div class="form-group">
+            <label>Nome do Produto</label>
+            <input type="text" placeholder="Ex: Hambúrguer Artesanal">
+        </div>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <input type="text" placeholder="Detalhes do produto">
+        </div>
+
+        <!-- CATEGORIA -->
+        <div class="form-group">
+            <label>Categoria</label>
+            <select>
+                <option>Selecione</option>
+                <option>Lanches</option>
+                <option>Bebidas</option>
+                <option>Sobremesas</option>
+                <option>Pratos</option>
+            </select>
+        </div>
+
+        <!-- PREÇOS -->
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Preço de Custo</label>
+                <input type="number" placeholder="R$">
+            </div>
+
+            <div class="form-group">
+                <label>Preço de Venda</label>
+                <input type="number" placeholder="R$">
+            </div>
+        </div>
+
+        <!-- ESTOQUE -->
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Quantidade em Estoque</label>
+                <input type="number" placeholder="0">
+            </div>
+
+            <div class="form-group">
+                <label>Unidade</label>
+                <input type="text" placeholder="Ex: Unidade, Kg, Litro">
+            </div>
+        </div>
+
+        <!-- EXTRA -->
+        <div class="form-group">
+            <label>Código de Barras</label>
+            <input type="text" placeholder="Digite o código">
+        </div>
+
+        <div class="form-group">
+            <label>Fornecedor</label>
+            <select>
+                <option>Selecione</option>
+                <option>Fornecedor A</option>
+                <option>Fornecedor B</option>
+            </select>
+        </div>
+
+        <button class="btn">Cadastrar Produto</button>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>Sobre</h3>
+            <p>Sistema de delivery fictício para estudo.</p>
+        </div>
+
+        <div>
+            <h3>Links</h3>
+            <p><a href="index.html">Início</a></p>
+        </div>
+
+        <div>
+            <h3>Contato</h3>
+            <p>Email: contato@delivery.com</p>
+        </div>
+    </div>
+
+    <p class="copy">© 2026 Sistema Delivery</p>
+</footer>
+
+</body>
+</html>
